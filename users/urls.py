@@ -1,12 +1,12 @@
-from django.urls import path
+# from django.urls import path
 
-from .views import SignupView, RetrieveUserView
-
-
+# from .views import SignupView, RetrieveUserView
 
 
 
-urlpatterns = [
-    path('signup', SignupView.as_view()),
-    path('me/', RetrieveUserView.as_view())
-]
+
+
+# urlpatterns = [
+#     path('signup', SignupView.as_view()),
+#     path('me/', RetrieveUserView.as_view())
+# ]
